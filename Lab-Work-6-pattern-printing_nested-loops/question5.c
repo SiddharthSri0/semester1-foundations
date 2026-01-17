@@ -8,6 +8,7 @@ int main(){
     scanf("%d",&n);
     printf("Enter a number to show in the pattern");
     scanf("%d",&x);
+    int copy=x;
     for(int i = 1; i <= n; i++){
     for(int j = 1; j <= n; j++){
 
@@ -18,9 +19,10 @@ int main(){
             x--;
         }
     }
-    x=4-i;
+    x=copy-i;
     printf("\n");
     c++;
 }
+
 
 }
