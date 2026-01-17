@@ -10,10 +10,10 @@ int main(){
     
     */
     
-    int n;
+    int n;//height control variable
     printf("enter the number of rows\n");
     scanf("%d",&n);
-    int h =2*n-1;
+    int h =2*n-1; //widght control varaible
     printf("\n");
     for(int i=1;i<=n;i++){
        for(int j=1;j<=h-i;j++){
